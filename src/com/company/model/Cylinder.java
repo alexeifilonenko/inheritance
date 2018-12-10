@@ -16,7 +16,7 @@ public class Cylinder extends Circl {
         this.height = height;
     }
 
-    public double calcalateVolume(int height) {
-        return calculateSquare(getRadius()) * height;
+    public double calcalateVolume() {
+        return calculateSquare() * height;
     }
 }

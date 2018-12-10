@@ -16,7 +16,7 @@ public class Cube extends Rectangle{
         this.height = height;
     }
 
-    public double calculateVolume(int height) {
-        return calculateSquare(getWidth(), getLength()) * height;
+    public double calculateVolume() {
+        return calculateSquare() * height;
     }
 }

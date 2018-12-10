@@ -16,7 +16,7 @@ public class Circl extends Shape {
         this.radius = radius;
     }
 
-    public double calculateSquare(int radius) {
-        return 3.14 * radius * radius / 2;
+    public double calculateSquare() {
+        return 3.14 * radius * radius;
     }
 }

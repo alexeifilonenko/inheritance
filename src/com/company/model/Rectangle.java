@@ -26,7 +26,7 @@ public class Rectangle extends Shape {
         this.length = length;
     }
 
-    public int calculateSquare(int width, int length) {
+    public int calculateSquare() {
         return width * length;
     }
 }
